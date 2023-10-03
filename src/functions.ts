@@ -1,5 +1,3 @@
-import { functionExercise } from "./exercises/functionsExercise";
-
 // Function parameter type annotation
 function square(num: number) {
   return num * num;
@@ -79,5 +77,5 @@ export default function() {
   };
 
   // Function Exercise
-  functionExercise();
+  // functionExercise();
 }
