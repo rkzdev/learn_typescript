@@ -1,7 +1,7 @@
 export default function() {
   // Basics of type annotations
-  let bookTitle: string = "The art of deception";
-  let bookAuthor: string = "Kevin Mitnick";
+  let bookTitle: string = 'The art of deception';
+  let bookAuthor: string = 'Kevin Mitnick';
   let bookPublishedDate: number = 2001;
   let bookIsPublished: boolean = true;
 
@@ -10,7 +10,7 @@ export default function() {
   );
 
   // Type Inference
-  let name = "Raven";
+  let name = 'Raven';
   console.log(name);
 
   let nothing: null = null;
@@ -27,11 +27,11 @@ export default function() {
   // myAnyType.toUpperCase()
 
   // Delayed Initialization and Implicit Any
-  const movies = ["Arriaval", "The Thing", "Aliens", "Amadeus"];
+  const movies = ['Arriaval', 'The Thing', 'Aliens', 'Amadeus'];
   let foundMovie: string | null = null;
 
   for (let movie of movies) {
-    if (movie === "Amadeus") {
+    if (movie === 'Amadeus') {
       foundMovie = movie;
     }
   }

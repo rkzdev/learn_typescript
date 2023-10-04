@@ -51,13 +51,13 @@ function calculatePayout(song: Song): number {
 export default function objects() {
   // Object literal
   const dog = {
-    name: "Doggy",
-    breed: "Philippine Shepherd",
+    name: 'Doggy',
+    breed: 'Philippine Shepherd',
     age: 0.5,
   };
   console.log(dog);
 
-  const me: Name = { firstName: "Raven", lastName: "Paragas" };
+  const me: Name = { firstName: 'Raven', lastName: 'Paragas' };
   console.log(printName(me));
 
   // how come this gives me an error
@@ -67,7 +67,7 @@ export default function objects() {
   // this happens because of excess property checking when object literal is
   // directly pass from a function
 
-  const wth = { firstName: "javascript", lastName: "is wierd", bug: false };
+  const wth = { firstName: 'javascript', lastName: 'is wierd', bug: false };
   // but this one is fine
   console.log(printName(wth));
 
@@ -76,18 +76,18 @@ export default function objects() {
   console.log(randomCoordinate());
 
   let person1: Person = {
-    firstName: "raven",
-    lastName: "paragas",
+    firstName: 'raven',
+    lastName: 'paragas',
     age: 30,
   };
   console.log(printName(person1));
 
   const song1: Song = {
-    title: "Realest",
-    artist: [{ name: "Eminem" }, { name: "EZ mil" }],
+    title: 'Realest',
+    artist: [{ name: 'Eminem' }, { name: 'EZ mil' }],
     numStreams: 1_000_000,
     credits: {
-      producers: [{ name: "Eminem" }, { name: "EZ mil" }],
+      producers: [{ name: 'Eminem' }, { name: 'EZ mil' }],
       writers: [],
     },
   };
@@ -103,7 +103,7 @@ export default function objects() {
 
   const user: User = {
     id: 12837,
-    username: "catgirl",
+    username: 'catgirl',
   };
   console.log(user.id);
   // cannot override id property because it is readonly
@@ -125,7 +125,7 @@ export default function objects() {
 
   const coloredCircle: ColorfulCircle = {
     radius: 8,
-    color: "rainbow",
+    color: 'rainbow',
     smoothEdges: true,
   };
   console.log(coloredCircle);

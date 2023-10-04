@@ -12,7 +12,7 @@ function personInfo(name: string, age: number, isFunny = false) {
 }
 
 function printMe(): void {
-  console.log("Print Me");
+  console.log('Print Me');
 }
 
 // function random(num: number) {
@@ -46,8 +46,8 @@ function capitalize<T extends string>(value: T): string {
 
 export default function() {
   console.log(square(5));
-  console.log(greet("Raven"));
-  console.log(personInfo("Raven", 31, true));
+  console.log(greet('Raven'));
+  console.log(personInfo('Raven', 31, true));
   // void return type
   printMe();
 
@@ -55,7 +55,7 @@ export default function() {
   console.log(sum<number>([1, 2, 3, 4, 5]));
   console.log(sum<number>([1.0, 2.0, 3.0, 4.0, 5.5]));
 
-  let colors = ["red", "orange", "yellow"];
+  let colors = ['red', 'orange', 'yellow'];
   colors = colors.map(toUpperCase);
   colors = colors.map(toLowerCase);
   colors = colors.map(capitalize);
@@ -72,7 +72,7 @@ export default function() {
 
   const gameLoop = (): never => {
     while (true) {
-      console.log("GAME LOOP RUNNING!");
+      console.log('GAME LOOP RUNNING!');
     }
   };
 

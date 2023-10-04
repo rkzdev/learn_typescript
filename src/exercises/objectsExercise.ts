@@ -16,9 +16,9 @@ function getProfit({ boxOffice }: Movie): number {
 
 const objectsExercise = () => {
   const dune: Movie = {
-    title: "Dune",
-    originalTitle: "Dune Part One",
-    director: "Denis Villeneuve",
+    title: 'Dune',
+    originalTitle: 'Dune Part One',
+    director: 'Denis Villeneuve',
     releaseYear: 2021,
     boxOffice: {
       budget: 165000000,
@@ -28,8 +28,8 @@ const objectsExercise = () => {
   };
 
   const cats: Movie = {
-    title: "Cats",
-    director: "Tom Hooper",
+    title: 'Cats',
+    director: 'Tom Hooper',
     releaseYear: 2021,
     boxOffice: {
       budget: 95000000,
