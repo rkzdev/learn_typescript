@@ -5,6 +5,7 @@ import { objectsExercise } from './src/exercises/objectsExercise';
 import { unionTypesExercise } from './src/exercises/unionTypesExercise';
 import functions from './src/functions';
 import objects from './src/objects';
+import tuples from './src/tuples';
 import unionTypes from './src/unionTypes';
 import variables from './src/variables';
 
@@ -25,12 +26,15 @@ function main(): void {
   // objectsExercise();
 
   // arrays
-  arrays();
-  arraysExercise();
+  // arrays();
+  // arraysExercise();
 
   // union types
-  unionTypes();
-  unionTypesExercise();
+  // unionTypes();
+  // unionTypesExercise();
+
+  // tuples
+  tuples();
 }
 
 main();
