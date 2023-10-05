@@ -1,4 +1,5 @@
 import arrays from './src/arrays';
+import enums from './src/enums';
 import { arraysExercise } from './src/exercises/arraysExercise';
 import { functionExercise } from './src/exercises/functionsExercise';
 import { objectsExercise } from './src/exercises/objectsExercise';
@@ -34,7 +35,10 @@ function main(): void {
   // unionTypesExercise();
 
   // tuples
-  tuples();
+  // tuples();
+
+  // enums
+  enums();
 }
 
 main();
