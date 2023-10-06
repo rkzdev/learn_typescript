@@ -1,10 +1,12 @@
 import arrays from './src/arrays';
+import strategyPattern from './src/design_patterns/strategy.pattern';
 import enums from './src/enums';
 import { arraysExercise } from './src/exercises/arraysExercise';
 import { functionExercise } from './src/exercises/functionsExercise';
 import { objectsExercise } from './src/exercises/objectsExercise';
 import { unionTypesExercise } from './src/exercises/unionTypesExercise';
 import functions from './src/functions';
+import interfaces from './src/interfaces';
 import objects from './src/objects';
 import tuples from './src/tuples';
 import unionTypes from './src/unionTypes';
@@ -18,8 +20,6 @@ function main(): void {
 
   // functions
   // functions();
-
-  // function exercise
   // functionExercise();
 
   // objects
@@ -38,7 +38,12 @@ function main(): void {
   // tuples();
 
   // enums
-  enums();
+  // enums();
+
+  // interfaces();
+
+  // Strategy patterns
+  strategyPattern();
 }
 
 main();
